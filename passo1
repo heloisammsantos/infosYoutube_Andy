@@ -1,0 +1,6 @@
+#install.packages('devtools')
+library(devtools)
+#install githubs
+devtools::install_github("soodoku/tuber", build_vignettes = TRUE)
+#carregando bibliotecas necessarias
+library(tuber)  # Acesso a API do YouTube
